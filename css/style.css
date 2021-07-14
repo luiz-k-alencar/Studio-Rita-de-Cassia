@@ -17,9 +17,9 @@ a {
 
 /* HEADER */
 
-header {
-  background-image: linear-gradient(to bottom, #FED39E, transparent);
-  height: 100px;
+.header{
+  background-image: linear-gradient(to bottom, #3C2F26, transparent);
+  height: 120px;
   padding: 10px;
   overflow: hidden;
   position: sticky;
@@ -27,19 +27,40 @@ header {
   z-index: 2;
 }
 
+.headerFixed{
+  background-image: none;
+  background-color: #FED39E;
+  border-bottom: 4px solid #3C2F26;
+
+  transition: 1000ms;
+}
+
+.headerFixed div div nav ul li a{
+  color: #3C2F26;
+}
+
+.headerFixed div div nav ul li a:hover{
+  border-bottom: 2px solid #3C2F26;
+}
+
 .headerContent{
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1.5fr 4fr;
 }
 
 .logoContainer{
+  margin-left: 20px;
   height: 100%;
 }
 
 .logoImg{
   width: 100%;
+}
+
+.hidden{
+  display: none;
 }
 
 .navContainer{
@@ -67,7 +88,7 @@ header {
 
 .navContent li a:hover{
   font-weight: bold;
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid #FED39E;
   padding: 0px 10px 30px 10px;
 }
 
@@ -110,4 +131,70 @@ header {
 }
 
 /* SERVICES */
+
+#services{
+  background-color: white;
+  margin-top: calc(100vh - 120px) ;
+}
+
+.servicesContainer{
+  padding: 20px 0px;
+}
+
+.servicesTitle{
+  background-color: #3C2F26;
+  padding: 100px;
+  width: 45%;
+  text-align: justify;
+}
+
+.servicesTitle h1{
+  color: white;
+  font-size: 50px;
+}
+
+.servicesTitle h4{
+  color: #FED39E;
+  font-size: 20px;
+}
+
+.brownDivisor{
+  margin-top: 200px;
+  background-color: #3C2F26;
+  width: 100%;
+  height: 1351px;
+}
+
+.servicesContent{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  transform: translateY(-150px);
+}
+
+.serviceBox{
+  margin: 10px;
+  padding: 15px;
+  text-align: justify;
+  color: #3C2F26;
+  border-radius: 10px;
+  border: 4px solid #FED39E ;
+  background-color: white;
+}
+
+.serviceBox:hover{
+  background-color: #FED39E;
+  transition: 500ms;
+}
+
+.serviceImg{
+  text-align: center;
+}
+
+.serviceImg img {
+  max-width: min(194px, 100%);
+  border-radius: 10px;
+  align-self: center;
+  border: 4px solid #FED39E ;
+}
+
 

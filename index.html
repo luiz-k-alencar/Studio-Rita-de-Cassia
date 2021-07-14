@@ -14,25 +14,26 @@
   <title>Studio Rita de Cássia</title>
 </head>
 <body>
-  <header>
+  <header class="header" id="header">
     <div class="headerContent">
       <div class="logoContainer">
-        <img class="logoImg" src="./assets/logo.png" alt="logo">
+        <img id="logoImg" class="logoImg" src="./assets/logo.png" alt="logo">
+        <img id="brownLogoImg" class="logoImg hidden" src="./assets/brow_logo.png" alt="logo">
       </div>
       <div class="navContainer">
         <nav>
           <ul class="navContent">
             <li>
-              <a href="#top" id="homeNav" class="option">Início</a>
+              <a href="#home" id="homeNav" class="option">Início</a>
             </li>
             <li>
-              <a href="#top" id="servicesNav" class="option">Serviços</a>
+              <a href="#services" id="servicesNav" class="option">Serviços</a>
             </li>
             <li>
-              <a href="#top" id="pricesNav" class="option">Preços</a>
+              <a href="#price" id="pricesNav" class="option">Preços</a>
             </li>
             <li>
-              <a href="#top" id="contactNav" class="option">Contato</a>
+              <a href="#contact" id="contactNav" class="option">Contato</a>
             </li>
           </ul>
         </nav>
@@ -63,9 +64,155 @@
       </div>
     </section>
     <section class="section" id="services">
-
+      <div class="servicesContainer">
+        <div class="servicesTitle">
+          <h4>Nosso</h4>
+          <h1>Serviços</h1>
+        </div>
+        <div class="brownDivisor">
+          <div class="servicesContent">
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/micropigmentação.jpeg" alt="Micropigmentação" />
+            </div>
+  
+            <h3>Micropigmentação</h3>
+            <p>
+              Micropigmentação é uma técnica que consiste em inserir pigmento em uma camada especifica da pele, na região das sobrancelhas, os equipamentos utilizados são o dermográfo e o tebori.
+              A profissional micropigmentadora executa a técnica, desenhando fios realistas, corrigindo falhas da sobrancelha e contribuindo para o visagismo
+            </p>
+          </div>
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/design-sobrancelhas.jpeg" alt="Design-Sobrancelhas" />
+            </div>
+  
+            <h3>Design de Sobrancelhas</h3>
+            <p>
+              Cada sobrancelha é única, com um design de sobrancelhas de qualidade é possível ter um olhar marcante e natural.
+            </p>
+          </div>
+  
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/lash-lifting.jpeg" alt="Lash-Lifting" />
+            </div>
+  
+            <h3>Lash Lifting</h3>
+            <p>
+              É um tratamento revolucionário e inovador que valoriza os cílios naturais resultando em um olhar marcante todos os dias.
+              Estamos falando de praticidade.
+              Não usamos extensão, o procedimento é feito com o próprio cílios da cliente, e contando com produtos específicos, feito exclusivamente para esse fim.
+  
+              O Lash Lifting é a evolução do permanente de cílios, um tratamento avançado com ótimos resultados, alta durabilidade e rico em nutrientes.
+            </p>
+          </div>
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/corte.jpeg" alt="Corte" />
+            </div>
+  
+            <h3>Corte</h3>
+            <p>
+              Cortamos seu cabelo da forma que preferir sempre prezando por sua
+              beleza
+            </p>
+          </div>
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/escova-definitiva.jpg" alt="Escova-Definitiva" />
+            </div>
+  
+            <h3>Escova Definitiva</h3>
+            <p>
+              Escova definitiva, também conhecida como escova permanente, é aquela que altera a estrutura interna dos fios, deixando-os lisos.
+            </p>
+          </div>
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/cronograma-capilar.jpg" alt="Cronograma-Capilar" />
+            </div>
+  
+            <h3>Cronograma Capilar</h3>
+            <p>
+              Cronograma capilar é um tratamento em 3 sessões, ideal para reconstruir os fios e trazer de volta a naturalidade. 
+              <br>
+              <br>
+              <strong>1° semana:</strong> desintoxicação e reconstrução capilar, kit detox.
+              <br>
+              <br>
+              <strong>2° semana:</strong> reconstituição fortalecedora do complexo da membrana capilar, kit mirra fusion. 
+              <br>
+              <br>
+              <strong>3° semana:</strong> nano reconstrutor brilho e alisamento, kit plástica capilar
+            </p>
+          </div>
+          
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/mechas.jpeg" alt="Mechas" />
+            </div>
+  
+            <h3>Mechas</h3>
+            <p>
+              Optar pelas mechas é a escolha perfeita para quem quer dar uma mudada no visual, mas sem mudar radicalmente. Elas dão um aspecto suave aos fios, deixando-os com um toque super natural.
+            </p>
+          </div>
+                          
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/festas-casamento.jpeg" alt="Festas-Casamento" />
+            </div>
+  
+            <h3>Festas e Casamentos</h3>
+            <p>
+              Arrase no seu look para ir àquele evento que você tanto esperou para ir. Aqui você encontrará penteados e maquiagens para festas em geral, casamentos, 15 anos e formaturas.
+  
+            </p>
+          </div>
+  
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/escovar-modelar.jpg" alt="Escovar-Modelar" />
+            </div>
+  
+            <h3>Escovar e Modelar</h3>
+            <p>
+              A escova modeladora é uma ótima escolha para ocasiões especiais ou para manter a selagem dos fios no dia a dia. Após lavar seu cabelo, ele volta ao formato anterior.
+            </p>
+          </div>
+  
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/unhas.jpg" alt="Unhas" />
+            </div>
+  
+            <h3>Manicure e Pedicure</h3>
+            <p>
+              Unha é algo que ninguém consegue passar a semana sem fazer, não é mesmo? Quando deixamos elas de lado elas quebram, descamam e ficam fracas. Para evitar esses probleminhas e manter as unhas sempre saudáveis e bonitas, agende um horário conosco.
+            </p>
+          </div>
+                 
+          <div class="serviceBox">
+            <div class="serviceImg">
+              <img src="./assets/despigmentacao.jpg" alt="Despigmentação" />
+            </div>
+  
+            <h3>Despigmentação</h3>
+            <p>
+              A despigmentação fundamenta-se no princípio de gerar um estímulo ocasionando a renovação celular. 
+              A despigmentação ácida consiste em aplicar um produto na camada da pele onde encontra-se o pigmento a ser removido, desse modo, o agente estimulante promoverá a renovação celular daquela região cutânea e assim expelirá o pigmento.
+              Vale ressaltar que o produto empregado tem comprovação de segurança, eficácia e qualidade pela Anvisa
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
     </section>
 
   </main>
+
+  <script src="./js/smoothScroll.js"></script>
+  <script src="./js/headerChange.js"></script>
 </body>
 </html>

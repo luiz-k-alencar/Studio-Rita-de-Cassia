@@ -11,13 +11,20 @@ a {
   text-decoration: none;
 }
 
+/* .section{
+  padding: 5px;
+} */
+
 /* HEADER */
 
 header {
-  background-image: linear-gradient(to bottom, #f39e9b, transparent);
+  background-image: linear-gradient(to bottom, #FED39E, transparent);
   height: 100px;
-  overflow: hidden;
   padding: 10px;
+  overflow: hidden;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
 }
 
 .headerContent{
@@ -54,6 +61,7 @@ header {
 }
 
 .navContent li a{
+  font-size: 20px;
   color: white;
 }
 
@@ -62,3 +70,44 @@ header {
   border-bottom: 2px solid white;
   padding: 0px 10px 30px 10px;
 }
+
+/* HOME */
+
+#home{
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  overflow: hidden;
+  height: 100vh;
+  z-index: 1;
+}
+
+.presentationContainer{
+  background-image: url('../assets/studioPhoto.jpeg');
+  height: 100vh;
+}
+ 
+.presentationContent{
+  position: relative;
+  width: 400px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 100px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FED39EA6;
+}
+
+.presentationContent h1{
+  font-size: 50px;
+  color: #3C2F26;
+}
+
+.presentationContent p{
+  color: #3C2F26;
+  padding: 5px;
+  font-weight: bold;
+}
+
+/* SERVICES */
+

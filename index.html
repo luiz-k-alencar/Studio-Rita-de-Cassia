@@ -464,19 +464,72 @@
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3739.5561618793536!2d-40.67316018507784!3d-20.401181986341705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb9b5d5d985cf7d%3A0xa682d9e3debf87f1!2sStudio%20Rita%20de%20Cassia!5e0!3m2!1spt-BR!2sbr!4v1611941708549!5m2!1spt-BR!2sbr"
                 class="Map"
-                width="500"
-                height="400"
+                width="450"
+                height="300"
                 frameborder="0"
                 style="border: 0"
                 allowfullscreen=""
                 aria-hidden="false"
                 tabindex="0"
               ></iframe>
+              <a
+                onmouseover="changeToLight()"
+                onmouseout="changeToBrown()"
+                class="locationButton"
+                href="https://maps.google.com/maps?ll=-20.414801,-40.675428&z=19&t=m&hl=pt-BR&gl=BR&mapclient=embed&daddr=Academia%20All%20Sports%20R.%20Clara%20Endlich%2C%20205%20-%20Centro%20Mal.%20Floriano%20-%20ES%2029255-000@-20.4148012,-40.6754279"
+              >
+                <img id="mapIcon" src="./assets/mapIcon.svg" alt="Map Icon" />
+                <p>Clique aqui para solicitar sua rota!</p>
+              </a>
             </div>
           </div>
         </div>
       </section>
     </main>
+
+    
+    <footer class="footer">
+      <div class="logoContainer">
+        <img class="logoImg" src="./assets/logo.png" alt="logo" />
+      </div>
+      <div class="enderecoFotter">
+        <div>
+          <p>R. das Rosas, 116</p>
+          <p>Vila das Orquídeas</p>
+          <p>Marechal Floriano - ES</p>
+          <p>CEP: 29255-000</p>
+        </div>
+      </div>
+      <div class="midiasDiv">
+        <a
+          class="midiasButton"
+          href="https://www.instagram.com/ritadecassiapmu/"
+          ><img
+            class="midiasLogo"
+            src="./assets/instagram.svg"
+            alt="instagram-logo"
+        /></a>
+        <a
+          class="midiasButton"
+          href="https://www.facebook.com/rita.decassiakmavitoria"
+          ><img
+            class="midiasLogo"
+            src="./assets/facebook.svg"
+            alt="instagram-logo"
+        /></a>
+        <a class="midiasButton" href="https://wa.me/+5527997610579/?text=Olá!"
+          ><img
+            class="midiasLogo"
+            src="./assets/whatsapp.svg"
+            alt="instagram-logo"
+        /></a>
+      </div>
+    </footer>
+    <div class="copyrightDiv">
+      <a class="linktrButton" href="https://linktr.ee/luiz.lfka">
+        Copiright © por Luiz F. K. Alencar.
+      </a>
+    </div>
 
     <script src="./js/smoothScroll.js"></script>
     <script src="./js/headerChange.js"></script>

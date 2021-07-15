@@ -299,7 +299,7 @@ a {
 .input{
   border: 1px solid black;
   width: calc(100% - 20px);
-  margin-bottom: 10px;
+  margin: 5px 0px 10px;
   padding: 5px 10px;
 }
 
@@ -316,4 +316,97 @@ a {
 
 .mapContainer iframe{
   border-radius: 10px;
+}
+
+.locationButton {
+  border: 3px solid #FED39E;
+  padding: 5px 5px 5px 45px;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  transition: 500ms;
+  margin: 20px 0px;
+  font-size: 20px;
+  height: 65px;
+}
+
+#mapIcon{
+  transform: translateY(-50%);
+  display: inline-block;
+  position: absolute;
+  height: 40px;
+  left: 0px;
+  top: 50%;
+}
+
+.locationButton p {
+  border-bottom: 4px solid #FED39E;
+  display: inline-block;
+  padding-bottom: 5px;
+  position: relative;
+  color: #FED39E;
+  top: 5px;
+}
+
+/* FOOTER */
+
+
+.footer {
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #3C2F26;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 20px;
+  color: white;
+  display: grid;
+  width: 100%;
+}
+
+.enderecoFotter {
+  position: relative;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.enderecoFotter div {
+  transform: translateY(-50%);
+  position: absolute;
+  left: 25%;
+  top: 50%;
+}
+
+.midiasDiv{
+  grid-template-rows: 1fr 1fr 1fr;
+  display: grid;
+  margin-left: 100px;
+}
+
+.midiasButton {
+  width: 40px;
+}
+
+.midiasLogo {
+  width: 30px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+.copyrightDiv {
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+}
+
+.linktrButton {
+  color: white;
+  padding: 2px;
+  border-radius: 10px;
+
+  transition: 200ms;
+}
+
+.linktrButton:hover {
+  background-color: #FED39E;
+  color: black;
+  font-weight: bold;
 }

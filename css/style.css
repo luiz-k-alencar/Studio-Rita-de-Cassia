@@ -161,14 +161,14 @@ a {
 .servicesContent{
   grid-template-columns: 1fr 1fr 1fr;
   background-color: #3C2F26;
-  margin-top: 150px;
-  height: 1349px;
+  margin: 110px 0px;
+  height: 1549px;
   display: grid;
   width: 100%;
 }
 
 .serviceBox{
-  transform: translateY(-150px);
+  transform: translateY(-100px);
   border: 4px solid #FED39E;
   background-color: white;
   border-radius: 10px;
@@ -196,15 +196,6 @@ a {
 
 /* PRICES */
 
-#prices{
-  margin-top: 120px;
-  width: 100%;
-}
-
-.pricesContainer{
-  padding: 20px 0px;
-}
-
 .pricesTitle{
   transform: translateX(-100%);
   background-color: #3C2F26;
@@ -227,8 +218,8 @@ a {
 
 .pricesContent{
   background-color: #3C2F26;
+  margin: 110px 0px;
   text-align: center;
-  margin-top: 150px;
   height: 400px;
   width: 100%;
 }
@@ -251,4 +242,78 @@ a {
 
 .pricesBox:hover{
   background-color: #FED39E;
+}
+
+.observation {
+  text-align: justify;
+  margin-right: 10px;
+  position: relative;
+  color: #FED39E;
+  font-size: 14px;
+  bottom: 150px;
+  float: right;
+}
+
+/* CONTACT */
+
+.contactTitle{
+  background-color: #3C2F26;
+  text-align: justify;
+  padding: 100px;
+  width: 45%;
+}
+
+.contactTitle h1{
+  font-size: 50px;
+  color: white;
+}
+
+.contactTitle h4{
+  color: #FED39E;
+  font-size: 20px;
+}
+
+.contactContent{
+  grid-template-columns: 1fr 1fr;
+  background-color: #3C2F26;
+  padding: 30px 0px;
+  margin-top: 10px;
+  display: grid;
+}
+
+.contactForm{
+  text-align: justify;
+  padding: 0px 30px;
+}
+
+.formTitle{
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.formSubtitle{
+  color: white;
+}
+
+.input{
+  border: 1px solid black;
+  width: calc(100% - 20px);
+  margin-bottom: 10px;
+  padding: 5px 10px;
+}
+
+.mapContainer{
+  text-align: center;
+}
+
+.mapContainer p{
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+
+.mapContainer iframe{
+  border-radius: 10px;
 }

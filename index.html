@@ -445,17 +445,40 @@
               <p class="formTitle">Possui alguma dúvida sobre nossos serviços, preços ou qualquer outra coisa? Entre em contato conosco atrevés do formulário, via Whatsapp, Instagram ou Facebook</p>
         
               <div class="formContainer">
-                <form action="mailto:ritakamm@gmail.com" method="POST" enctype="text/plain">
+                <form action="https://formsubmit.co/luizkama28@gmail.com" method="POST">
                   <p class="formSubtitle">Nome:</p>
-                  <input class="input" type="text" name="name" id="name" placeholder="Nome">
-                  
+                  <input 
+                    placeholder="Nome" 
+                    class="input"
+                    name="name" 
+                    type="text" 
+                    id="name"
+                    required
+                  >
                   <p class="formSubtitle">Email:</p>
-                  <input class="input" type="email" name="email" id="email" placeholder="Email">
-      
+                  <input 
+                    placeholder="Email"
+                    class="input"
+                    type="email" 
+                    name="email" 
+                    id="email"
+                    required
+                  >
+
                   <p class="formSubtitle">Mensagem:</p>
                   <textarea class="input" name="mensagem" id="about" cols="30" rows="10" placeholder="Insira sua mensagem"></textarea>
-                  <br>
-                  <input class="input" type="submit" id="submit" value="Enviar">
+
+                  <input type="hidden" name="_next" value="https://studioritadecassia.com/pages/thankyou.html">
+                  <input type="hidden" name="_subject" value="Email do Site!">
+
+                  <button 
+                    type="submit"
+                    class="input"
+                    id="submit" 
+                    value="Enviar"
+                  >
+                    Enviar
+                  </button>
                 </form>
               </div>
             </div>
@@ -473,10 +496,8 @@
                 tabindex="0"
               ></iframe>
               <a
-                onmouseover="changeToLight()"
-                onmouseout="changeToBrown()"
                 class="locationButton"
-                href="https://maps.google.com/maps?ll=-20.414801,-40.675428&z=19&t=m&hl=pt-BR&gl=BR&mapclient=embed&daddr=Academia%20All%20Sports%20R.%20Clara%20Endlich%2C%20205%20-%20Centro%20Mal.%20Floriano%20-%20ES%2029255-000@-20.4148012,-40.6754279"
+                href="https://www.google.com/maps/dir//Studio+Rita+de+Cassia,+R.+das+Rosas,+116+-+Vila+das+Orquideas,+Mal.+Floriano+-+ES,+29255-000/@-20.4012287,-40.6712384,20z/data=!4m8!4m7!1m0!1m5!1m1!1s0xb9b5d5d985cf7d:0xa682d9e3debf87f1!2m2!1d-40.6709922!2d-20.4011738"
               >
                 <img id="mapIcon" src="./assets/mapIcon.svg" alt="Map Icon" />
                 <p>Clique aqui para solicitar sua rota!</p>

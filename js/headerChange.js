@@ -1,7 +1,7 @@
 (function () {
   var menu = document.getElementById('header');
   window.addEventListener('scroll', function () {
-      if (window.scrollY > 120) menu.classList.add('headerFixed');
+      if (window.scrollY > 100) menu.classList.add('headerFixed');
       else menu.classList.remove('headerFixed');
   });
 })();
@@ -9,7 +9,7 @@
 (function () {
   var menu = document.getElementById('logoImg');
   window.addEventListener('scroll', function () {
-      if (window.scrollY > 120) menu.classList.add('hidden');
+      if (window.scrollY > 100) menu.classList.add('hidden');
       else menu.classList.remove('hidden');
   });
 })();
@@ -17,7 +17,7 @@
 (function () {
   var menu = document.getElementById('brownLogoImg');
   window.addEventListener('scroll', function () {
-      if (window.scrollY > 120) menu.classList.remove('hidden');
+      if (window.scrollY > 100) menu.classList.remove('hidden');
       else menu.classList.add('hidden');
   });
 })();

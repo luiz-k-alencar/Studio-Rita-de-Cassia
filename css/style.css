@@ -369,8 +369,9 @@ a {
 
 .enderecoFotter {
   position: relative;
-  text-align: left;
   margin-left: 50px;
+  text-align: left;
+  overflow: hidden;
 }
 
 .enderecoFotter div {

@@ -105,6 +105,10 @@ a {
 
 .presentationContainer{
   background-image: url('../assets/landing-page.jpg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  background-color: #91826F;
   height: 100vh;
 }
  
